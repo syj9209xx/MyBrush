@@ -63,11 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Script\Controller\PlayerController.cs" />
+    <Compile Include="Assets\Script\Manager\BulletManager.cs" />
+    <Compile Include="Assets\Script\Manager\EnvironmentManager.cs" />
+    <Compile Include="Assets\Script\Manager\MonsterManager.cs" />
     <None Include="Assets\Resource\Map\Tile\새 텍스트 문서.txt" />
     <None Include="Assets\Resource\Object\dynamic\Goblin\새 텍스트 문서.txt" />
-    <None Include="Assets\Resource\Object\static\Tree\새 텍스트 문서.txt" />
-    <None Include="Assets\Resource\Object\static\Building\새 텍스트 문서.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Program Files/Unity/Hub/Editor/2019.4.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
